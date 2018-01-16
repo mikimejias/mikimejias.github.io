@@ -1,0 +1,26 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: rgb(79, 111, 120);
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background-color: #005459;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .title, .subtitle {
+    color: #fff;
+  }
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+  }
+}
